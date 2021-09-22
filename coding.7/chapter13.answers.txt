@@ -1,0 +1,22 @@
+Ahmed Abdulahi
+
+question 2: total is 7960 and  6162 megabytes are free. yes. 
+
+question 4: I run the free command right before running and 687516 of memory was
+being used. I run free right after and it creased to 690352. After I killed 
+the program it came back to 687316. If the we increase the amount of memory
+usage in my program then it also the memoery that was being used increased.
+
+question 5: using man looked through some of the arguments and commads that
+could be used with pmap.
+
+question 6: in program I wrote print statement to get PID. Thus, called the 
+-q flag with pmap and my PID. for exaampl, pmap -q 202141.    
+
+question 7: I used pmap -x 202141 and I got the list of adresses as well as
+some of the mappings that happend. It showed that memory-user program. It
+also displays the total memory usage. We also see unrelated memory files within.
+
+question 8: The similar effect can be seen in pmap when we increase heap
+ allocation in memory-user.
+
